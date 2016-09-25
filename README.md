@@ -89,7 +89,7 @@ todo list
 - Make it available globally by creating a symbolic link of ``__dirname/bin/index.js`` as ``/usr/bin/cli``
 - Assign a keyboard shortcut to it such as ``CTRL+ALT+C`` :
     - Go to System Settings -> Keyboard -> Shortcuts -> Personal shortcuts -> Add
-    - Command : ``gnome-terminal -e "sudo -E /usr/bin/cli"``
+    - Command : ``gnome-terminal -e "/usr/bin/cli"``
 
 ## Run
 
