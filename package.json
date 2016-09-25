@@ -1,0 +1,40 @@
+{
+  "name": "vorpal-seed",
+  "version": "1.0.0",
+  "description": "A vorpal seed with storage, ssh support and sample commands",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "bin": {
+    "cli": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MatthieuLemoine/vorpal-seed"
+  },
+  "keywords": [
+    "cli",
+    "vorpal"
+  ],
+  "author": "MatthieuLemoine",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cli-table2": "^0.2.0",
+    "figlet": "^1.1.1",
+    "lowdb": "^0.12.5",
+    "request": "^2.71.0",
+    "set-terminal-title": "^1.0.1",
+    "shelljs": "^0.7.0",
+    "ssh2-client": "^1.1.3",
+    "user-home": "^2.0.0",
+    "vorpal": "^1.10.10"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-react": "^4.3.0"
+  }
+}
